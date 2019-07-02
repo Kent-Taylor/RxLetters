@@ -98,13 +98,21 @@ body {
 /* Page Wrapper */
 
 .page-wrapper {
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
+
+}
+
+.page-wrapper > .side-bar{
+    display: flex;
+
+    color: black;
+    transform: rotate(0deg);
+    flex-direction: column;
+
 }
 
 .generate-section {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
@@ -120,6 +128,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    border: 2px solid black;
 }
 
 .notes-box {
