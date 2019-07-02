@@ -98,21 +98,18 @@ body {
 /* Page Wrapper */
 
 .page-wrapper {
-
+    display: flex;
+    justify-content: center;
 }
 
 .page-wrapper > .side-bar{
-    display: flex;
-
     color: black;
     transform: rotate(0deg);
     flex-direction: column;
-
 }
 
 .generate-section {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
