@@ -98,15 +98,19 @@ body {
 /* Page Wrapper */
 
 .page-wrapper {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
 }
 
 .page-wrapper > .side-bar{
     color: black;
+    align-items: center;
+    justify-content: center;
+    margin: 600px 0px 0px 0px;
     transform: rotate(0deg);
     flex-direction: column;
-}
+    height: 100vh;
+} 
 
 .generate-section {
     display: flex;

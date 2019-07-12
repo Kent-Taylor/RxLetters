@@ -33,7 +33,7 @@
         justify-content: space-evenly;
     }
 
-    /* sign in page */
+    /* nav bar */
 
     .login-cred {
         display: flex;
@@ -56,5 +56,16 @@
         color: rgb(255, 255, 255);
         padding: 0px 20px 0px 0px;
     }
+
+    /* sign in page */
+
+    .letters-image img {
+        grid-column: 2;
+        width: 100px;
+        grid-gap: 0px;
+        box-shadow: 20px 20px 35px -2px rgba(24, 24, 24, 0.75);
+        border-radius: 18px;
+    }
+
 
 }
